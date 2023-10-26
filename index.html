@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>rating</title>
+
+  </head>
+  <body>
+
+<div class="page-center">
+
+      <div class="page-content">
+
+          <div class="content--left rounded-border">
+              <div class="content">
+                  <h2>Table</h2>
+                  <table >
+                      <tr class="add-to-table">
+                        <th>id</th>
+                        <th>name</th>
+                        <th>date</th>
+                        <th>rating</th>
+                      </tr>
+                      
+                  </table>
+              </div>
+          </div>
+
+          <div class="content--right rounded-border">
+              <div class="content">
+                  <h2>Form</h2>
+                  <div class="form">
+                      <label for="name">Movie name:</label><br>
+                        <input type="text" id="name"><br>
+                      <label for="rating">Rating:</label><br>
+                        <input type="number" id="rating" min="1" max="10" step="1"><br>
+                      <label for="date">Date:</label><br>
+                        <input type="number" id="date" min="1888" max="2024" step="1"><br><br>
+                        <!-- <input id="add-movie" class="pointer" type="submit" value="Add movie"><br> -->
+                        <button id="add-movie" class="pointer">Add movie</button>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+</div>
+
+
+<script src="script.js"></script>
+  </body>
+</html>
